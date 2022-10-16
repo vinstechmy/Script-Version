@@ -26,7 +26,3 @@ wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocket
 
 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 sleep 1
-echo ""
-cd
-clear
-menu

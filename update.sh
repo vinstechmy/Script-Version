@@ -8,7 +8,7 @@ purple='\e[0;35m'
 orange='\e[0;33m'
 NC='\e[0m'
 echo ""
-echo -e "[ ${green}INFO${NC} ] Autoscript Update Begin . . ."
+echo -e "[${green}INFO${NC}] Autoscript Update Begin . . ."
 sleep 1
 cd /usr/bin
 rm add-ws
@@ -24,7 +24,7 @@ wget -O add-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketP
 wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-vless.sh" && chmod +x user-vless
 wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-tr.sh" && chmod +x user-tr
 
-echo -e "[ ${green}INFO${NC} ] Successfully Install New Update File !"
+echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 sleep 1
 echo ""
 cd

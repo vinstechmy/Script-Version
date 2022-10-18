@@ -11,18 +11,12 @@ echo ""
 echo -e "[ ${green}INFO${NC} ] Autoscript Update Begin . . ."
 sleep 1
 cd /usr/bin
-rm add-ws
-rm add-vless
-rm add-tr
-rm user-vless
-rm user-tr
+rm menu
+rm nf
 
 cd /usr/bin
-wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/add-ws.sh" && chmod +x add-ws
-wget -O add-vless "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/add-vless.sh" && chmod +x add-vless
-wget -O add-tr "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/add-tr.sh" && chmod +x add-tr
-wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/user-vless.sh" && chmod +x user-vless
-wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/user-tr.sh" && chmod +x user-tr
+wget -O menu "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/SSH/menu.sh" && chmod +x menu
+wget -O nf "https://raw.githubusercontent.com/vinstechmy/MediaUnlockerTest/main/media.sh" && chmod +x nf
 
 echo -e "[ ${green}INFO${NC} ] Successfully Install New Update File !"
 sleep 1

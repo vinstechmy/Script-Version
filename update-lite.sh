@@ -15,12 +15,14 @@ rm menu
 rm nf
 rm restore
 rm backup
+rm status
 
 cd /usr/bin
 wget -O menu "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/SSH/menu.sh" && chmod +x menu
 wget -O nf "https://raw.githubusercontent.com/vinstechmy/MediaUnlockerTest/main/media.sh" && chmod +x nf
 wget -O restore "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/BACKUP/restore.sh" && chmod +x restore
 wget -O backup "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/BACKUP/backup.sh" && chmod +x backup
+wget -O status "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/SSH/status.sh" && chmod +x status
 
 echo -e "[ ${green}INFO${NC} ] Successfully Install New Update File !"
 sleep 1

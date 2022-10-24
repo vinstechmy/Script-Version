@@ -11,7 +11,8 @@ echo ""
 echo -e "[${green}INFO${NC}] Autoscript Update Begin . . ."
 sleep 1
 cd /usr/bin
-rm dns
+rm menu
+#rm dns
 #rm status
 #rm add-tr
 #rm add-vless
@@ -22,10 +23,10 @@ rm dns
 #rm restore
 
 cd /usr/bin
-wget -O dns "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/dns.sh" && chmod +x dns
+#wget -O dns "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/dns.sh" && chmod +x dns
 #wget -O restore "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/BACKUP/restore.sh" && chmod +x restore
 #wget -O nf "https://raw.githubusercontent.com/vinstechmy/MediaUnlockerTest/main/media.sh" && chmod +x nf
-#wget -O menu "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/menu.sh" && chmod +x menu
+wget -O menu "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/menu.sh" && chmod +x menu
 #wget -O status "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/status.sh" && chmod +x status
 #wget -O xp "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/xp.sh" && chmod +x xp
 #wget -O add-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-tr.sh" && chmod +x add-tr

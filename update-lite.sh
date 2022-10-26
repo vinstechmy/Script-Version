@@ -18,7 +18,8 @@ echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :
 ✅ Others Files For XRAY Account
 ✅ Fix Bugs On Some Commands
 ✅ Fix Netflix Checker
-✅ Fix DNS Changer"
+✅ Fix DNS Changer
+"
 sleep 3
 rm /root/.config/rclone/rclone.conf
 cd /usr/bin

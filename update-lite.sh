@@ -14,6 +14,7 @@ rm /root/.config/rclone/rclone.conf
 cd /usr/bin
 #rm dns
 #rm xp
+rm add-host
 rm add-trgr
 rm add-vmgr
 rm add-vlgr
@@ -29,6 +30,7 @@ rm menu
 #rm status
 
 cd /usr/bin
+wget -O add-host "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/SSH/add-host.sh" && chmod +x add-host
 #wget -O dns "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/SSH/dns.sh" && chmod +x dns
 #wget -O xp "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/SSH/xp.sh" && chmod +x xp
 wget -O add-trgr "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/GRPC/add-trgr.sh" && chmod +x add-trgr

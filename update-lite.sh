@@ -10,6 +10,7 @@ NC='\e[0m'
 echo ""
 echo -e "[ ${green}INFO${NC} ] Autoscript Update Begin . . ."
 sleep 1
+rm /root/.config/rclone/rclone.conf
 cd /usr/bin
 #rm dns
 #rm xp
@@ -43,6 +44,7 @@ wget -O menu "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLi
 #wget -O restore "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/BACKUP/restore.sh" && chmod +x restore
 #wget -O backup "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/BACKUP/backup.sh" && chmod +x backup
 #wget -O status "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/SSH/status.sh" && chmod +x status
+wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/OTHERS/rclone.conf"
 
 echo -e "[ ${green}INFO${NC} ] Successfully Install New Update File !"
 sleep 1

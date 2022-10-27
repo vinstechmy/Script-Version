@@ -14,7 +14,7 @@ echo ""
 echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :
 
 ✅ Backup & Restore
-✅ Change domain error
+✅ Change Domain Error
 ✅ Others Files For XRAY Account
 ✅ Fix Bugs On Some Commands
 ✅ Fix Netflix Checker

@@ -10,6 +10,16 @@ NC='\e[0m'
 echo ""
 echo -e "[${green}INFO${NC}] Autoscript Update Begin . . ."
 sleep 1
+echo ""
+echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :
+✅ Backup & Restore
+✅ Change domain error
+✅ Others Files For XRAY Account
+✅ Fix Bugs On Some Commands
+✅ Fix Netflix Checker
+✅ Fix DNS Changer
+"
+sleep 3
 rm /root/.config/rclone/rclone.conf
 #cd /usr/bin
 #rm menu

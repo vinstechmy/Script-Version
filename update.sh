@@ -12,6 +12,7 @@ echo -e "[${green}INFO${NC}] Autoscript Update Begin . . ."
 sleep 1
 echo ""
 echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :
+
 ✅ Backup & Restore
 ✅ Change domain error
 ✅ Others Files For XRAY Account

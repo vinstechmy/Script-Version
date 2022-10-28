@@ -25,6 +25,7 @@ rm /root/.config/rclone/rclone.conf
 cd /usr/bin
 rm dns
 rm xp
+rm certxray
 rm add-host
 rm add-tr
 rm add-vless
@@ -41,6 +42,7 @@ cd /usr/bin
 wget -O add-host "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/SSH/add-host.sh" && chmod +x add-host
 wget -O dns "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/SSH/dns.sh" && chmod +x dns
 wget -O xp "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/SSH/xp.sh" && chmod +x xp
+wget -O certxray "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/XRAY/cert.sh" && chmod +x certxray
 wget -O add-tr "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/XRAY/add-tr.sh" && chmod +x add-tr
 wget -O add-vless "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/XRAY/add-vless.sh" && chmod +x add-vless
 wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/XRAY/add-ws.sh" && chmod +x add-ws

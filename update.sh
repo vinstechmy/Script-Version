@@ -11,14 +11,17 @@ echo ""
 echo -e "[${green}INFO${NC}] Autoscript Update Begin . . ."
 sleep 1
 echo ""
+#echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :
+#
+#✅ Backup & Restore
+#✅ Change Domain Error
+#✅ Others Files For XRAY Account
+#✅ Fix Bugs On Some Commands
+#✅ Fix Netflix Checker
+#✅ Fix DNS Changer
+#"
 echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :
-
-✅ Backup & Restore
-✅ Change Domain Error
-✅ Others Files For XRAY Account
-✅ Fix Bugs On Some Commands
-✅ Fix Netflix Checker
-✅ Fix DNS Changer
+✅ New Menu UI With Bandwith Monitor
 "
 sleep 3
 rm /root/.config/rclone/rclone.conf
@@ -33,12 +36,12 @@ rm /root/.config/rclone/rclone.conf
 #rm user-vless
 #rm nf
 #rm restore
-
+wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/OTHERS/rclone.conf"
 cd /usr/bin
 #wget -O dns "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/dns.sh" && chmod +x dns
 #wget -O restore "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/BACKUP/restore.sh" && chmod +x restore
 #wget -O nf "https://raw.githubusercontent.com/vinstechmy/MediaUnlockerTest/main/media.sh" && chmod +x nf
-#wget -O menu "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/menu.sh" && chmod +x menu
+wget -O menu "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/menu.sh" && chmod +x menu
 #wget -O status "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/status.sh" && chmod +x status
 #wget -O xp "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/xp.sh" && chmod +x xp
 #wget -O add-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-tr.sh" && chmod +x add-tr
@@ -46,7 +49,7 @@ cd /usr/bin
 #wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-ws.sh" && chmod +x add-ws
 #wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-tr.sh" && chmod +x user-tr
 #wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-vless.sh" && chmod +x user-vless
-wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/OTHERS/rclone.conf"
+#wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/OTHERS/rclone.conf"
 
 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 sleep 1

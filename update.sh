@@ -21,6 +21,7 @@ echo ""
 #✅ Fix DNS Changer
 #"
 echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :
+
 ✅ New Menu UI With Bandwith Monitor
 "
 sleep 3

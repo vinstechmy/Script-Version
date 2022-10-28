@@ -51,6 +51,7 @@ wget -O nf "https://raw.githubusercontent.com/vinstechmy/MediaUnlockerTest/main/
 wget -O restore "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/BACKUP/restore.sh" && chmod +x restore
 wget -O backup "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/BACKUP/backup.sh" && chmod +x backup
 wget -O status "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/SSH/status.sh" && chmod +x status
+cd
 wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/OTHERS/rclone.conf"
 
 echo -e "[ ${green}INFO${NC} ] Successfully Install New Update File !"

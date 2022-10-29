@@ -37,7 +37,7 @@ rm user-tr
 rm user-vless
 rm nf
 rm restore
-wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/OTHERS/rclone.conf"
+#wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/OTHERS/rclone.conf"
 cd /usr/bin
 wget -O dns "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/dns.sh" && chmod +x dns
 wget -O restore "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/BACKUP/restore.sh" && chmod +x restore

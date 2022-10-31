@@ -23,6 +23,8 @@ echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :
 sleep 3
 rm /root/.config/rclone/rclone.conf
 cd /usr/bin
+rm trial
+rm usernew
 rm dns
 rm xp
 rm certxray
@@ -39,6 +41,8 @@ rm backup
 rm status
 
 cd /usr/bin
+wget -O trial "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/SSH/trial.sh" && chmod +x trial
+wget -O usernew "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/SSH/usernew.sh" && chmod +x usernew
 wget -O add-host "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/SSH/add-host.sh" && chmod +x add-host
 wget -O dns "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/SSH/dns.sh" && chmod +x dns
 wget -O xp "https://raw.githubusercontent.com/vinstechmy/SSH-XRAY-Websocket-Multiport/main/SSH/xp.sh" && chmod +x xp

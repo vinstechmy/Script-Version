@@ -11,14 +11,18 @@ echo ""
 echo -e "[ ${green}INFO${NC} ] Autoscript Update Begin . . ."
 sleep 1
 echo ""
+#echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :
+#
+#✅ Backup & Restore
+#✅ Change Domain Error
+#✅ Others Files For XRAY Account
+#✅ Fix Bugs On Some Commands
+#✅ Fix Netflix Checker
+#✅ Fix DNS Changer
+#"
 echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :
 
-✅ Backup & Restore
-✅ Change Domain Error
-✅ Others Files For XRAY Account
-✅ Fix Bugs On Some Commands
-✅ Fix Netflix Checker
-✅ Fix DNS Changer
+✅ Replacing Old Files
 "
 sleep 3
 rm /root/.config/rclone/rclone.conf

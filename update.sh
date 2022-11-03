@@ -8,7 +8,7 @@ purple='\e[0;35m'
 orange='\e[0;33m'
 NC='\e[0m'
 echo ""
-echo -e "[${green}INFO${NC}] Autoscript Update Begin . . ."
+echo -e "[ ${green}INFO${NC} ] Autoscript Update Begin . . ."
 sleep 1
 echo ""
 echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :

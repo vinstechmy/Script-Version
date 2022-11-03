@@ -19,6 +19,8 @@ echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :
 ✅ Fix Netflix Checker
 ✅ Fix DNS Changer
 "
+sleep 3
+rm /root/.config/rclone/rclone.conf
 cd /usr/bin
 rm nf
 rm menu
@@ -50,6 +52,7 @@ wget -O add-xtr "https://raw.githubusercontent.com/vinstechmy/XRAY-Lite/main/XRA
 wget -O add-trgo "https://raw.githubusercontent.com/vinstechmy/XRAY-Lite/main/TRGO/add-trgo.sh" && chmod +x add-trgo
 wget -O restore "https://raw.githubusercontent.com/vinstechmy/XRAY-Lite/main/BACKUP/restore.sh" && chmod +x restore
 wget -O backup "https://raw.githubusercontent.com/vinstechmy/XRAY-Lite/main/BACKUP/backup.sh" && chmod +x backup
-
+cd
+wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/vinstechmy/XRAY-Lite/main/OTHERS/rclone.conf"
 echo -e "[ ${green}INFO${NC} ] Successfully Install New Update File !"
 sleep 1

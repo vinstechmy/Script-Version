@@ -22,7 +22,7 @@ echo ""
 #"
 echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :
 
-✅ Replacing new bug & additional WSS trick
+✅ Replacing with new bug & additional WSS trick
 "
 sleep 3
 #rm /root/.config/rclone/rclone.conf

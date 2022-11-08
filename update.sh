@@ -36,7 +36,7 @@ rm add-vless
 rm add-ws
 rm user-tr
 rm user-vless
-rm user-vless
+rm user-ws
 rm del-ws
 rm xp
 #wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/OTHERS/rclone.conf"

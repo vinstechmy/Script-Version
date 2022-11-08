@@ -20,9 +20,10 @@ echo ""
 #✅ Fix Netflix Checker
 #✅ Fix DNS Changer
 #"
-echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :
+echo -e "[ ${green}INFO${NC} ] Update Autoscript Details :
 
-✅ Replacing with new bug & additional WSS trick
+✅ WSS For Umobile
+✅ WSS For Maxis TV
 "
 sleep 3
 #rm /root/.config/rclone/rclone.conf

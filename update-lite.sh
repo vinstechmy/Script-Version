@@ -33,7 +33,7 @@ rm add-vless
 rm add-ws
 rm user-ws
 rm user-vless
-#rm menu
+rm menu
 #rm nf
 #rm restore
 #rm backup
@@ -52,7 +52,8 @@ wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocket
 #wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/user-tr.sh" && chmod +x user-tr
 wget -O user-ws "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/user-ws.sh" && chmod +x user-ws
 wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/user-vless.sh" && chmod +x user-vless
-#wget -O menu "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/SSH/menu.sh" && chmod +x menu
+wget -O menu "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/SSH/menu.sh" && chmod +x menu
+wget -O ins-helium "https://raw.githubusercontent.com/vinstechmy/AdsBlock/main/ins-helium.sh" && chmod +x ins-helium
 #wget -O nf "https://raw.githubusercontent.com/vinstechmy/MediaUnlockerTest/main/media.sh" && chmod +x nf
 #wget -O restore "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/BACKUP/restore.sh" && chmod +x restore
 #wget -O backup "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/BACKUP/backup.sh" && chmod +x backup

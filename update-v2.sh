@@ -27,7 +27,7 @@ echo -e "[ ${green}INFO${NC} ] Update Autoscript Details :
 sleep 3
 #rm /root/.config/rclone/rclone.conf
 cd /usr/bin
-#rm menu
+rm menu
 #rm dns
 #rm nf
 #rm add-tr
@@ -49,6 +49,7 @@ cd /usr/bin
 #wget -O dns "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium-V2/main/SSH/dns.sh" && chmod +x dns
 #wget -O restore "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium-V2/main/BACKUP/restore.sh" && chmod +x restore
 #wget -O nf "https://raw.githubusercontent.com/vinstechmy/MediaUnlockerTest/main/media.sh" && chmod +x nf
+wget -O menu "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium-V2/main/SSH/menu.sh" && chmod +x menu
 #wget -O menu-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium-V2/main/SSH/menu-tr.sh" && chmod +x menu-tr
 #wget -O menu-trgo "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium-V2/main/SSH/menu-trgo.sh" && chmod +x menu-trgo
 #wget -O menu-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium-V2/main/SSH/menu-vless.sh" && chmod +x menu-vless
@@ -63,6 +64,7 @@ wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketP
 #wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium-V2/main/XRAY/user-tr.sh" && chmod +x user-tr
 wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium-V2/main/XRAY/user-vless.sh" && chmod +x user-vless
 wget -O user-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium-V2/main/XRAY/user-ws.sh" && chmod +x user-ws
+wget -O ins-helium "https://raw.githubusercontent.com/vinstechmy/AdsBlock/main/ins-helium.sh" && chmod +x ins-helium
 #wget -O del-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium-V2/main/XRAY/del-ws.sh" && chmod +x del-ws
 #cd
 #wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium-V2/main/OTHERS/rclone.conf"

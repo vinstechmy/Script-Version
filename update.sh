@@ -8,6 +8,7 @@ purple='\e[0;35m'
 orange='\e[0;33m'
 NC='\e[0m'
 echo ""
+echo -e "Autoscript Multiport Websocket Premium V1 By ${green}Vinstechmy${NC}"
 echo -e "[ ${green}INFO${NC} ] Autoscript Update Begin . . ."
 sleep 1
 echo ""
@@ -22,20 +23,21 @@ echo ""
 #"
 echo -e "[ ${green}INFO${NC} ] Update Autoscript Details :
 
-✅ Fix Error
+✅ Minor Update
 "
 sleep 3
 #rm /root/.config/rclone/rclone.conf
 cd /usr/bin
 rm menu
+rm wssgen
 #rm dns
 #rm nf
 #rm add-tr
-rm add-vless
-rm add-ws
+#rm add-vless
+#rm add-ws
 #rm user-tr
-rm user-vless
-rm user-ws
+#rm user-vless
+#rm user-ws
 #rm menu-tr
 #rm menu-trgo
 #rm menu-vless
@@ -59,13 +61,15 @@ wget -O menu "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPre
 #wget -O status "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/status.sh" && chmod +x status
 #wget -O xp "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/xp.sh" && chmod +x xp
 #wget -O add-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-tr.sh" && chmod +x add-tr
-wget -O add-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-vless.sh" && chmod +x add-vless
-wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-ws.sh" && chmod +x add-ws
+#wget -O add-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-vless.sh" && chmod +x add-vless
+#wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-ws.sh" && chmod +x add-ws
 #wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-tr.sh" && chmod +x user-tr
-wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-vless.sh" && chmod +x user-vless
-wget -O user-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-ws.sh" && chmod +x user-ws
+#wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-vless.sh" && chmod +x user-vless
+#wget -O user-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-ws.sh" && chmod +x user-ws
 #wget -O del-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/del-ws.sh" && chmod +x del-ws
 wget -O ins-helium "https://raw.githubusercontent.com/vinstechmy/AdsBlock/main/ins-helium.sh" && chmod +x ins-helium
+wget -O bbr "https://raw.githubusercontent.com/vinstechmy/Vinstechmy-TCP-BBR/main/bbr.sh" && chmod +x bbr
+wget -O wssgen "https://raw.githubusercontent.com/vinstechmy/WSS-Converter-Universal/main/wssgen.sh" && chmod +x wssgen
 #cd
 #wget -O /root/.config/rclone/rclone.conf "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/OTHERS/rclone.conf"
 

@@ -8,12 +8,13 @@ purple='\e[0;35m'
 orange='\e[0;33m'
 NC='\e[0m'
 echo ""
+echo -e "Autoscript Websocket Lite By ${green}Vinstechmy${NC}"
 echo -e "[ ${green}INFO${NC} ] Autoscript Update Begin . . ."
 sleep 1
 echo ""
 echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :
 
-✅ Fix Error
+✅ Minor Updates
 "
 #echo -e "[ ${green}INFO${NC} ] Update Autoscript For Fix Error :
 #
@@ -29,10 +30,10 @@ cd /usr/bin
 #rm add-vmgr
 #rm add-vlgr
 #rm add-tr
-rm add-vless
-rm add-ws
-rm user-ws
-rm user-vless
+#rm add-vless
+#rm add-ws
+#rm user-ws
+#rm user-vless
 rm menu
 #rm nf
 #rm restore
@@ -47,13 +48,15 @@ cd /usr/bin
 #wget -O add-vmgr "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/GRPC/add-vmgr.sh" && chmod +x add-vmgr
 #wget -O add-vlgr "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/GRPC/add-vlgr.sh" && chmod +x add-vlgr
 #wget -O add-tr "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/add-tr.sh" && chmod +x add-tr
-wget -O add-vless "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/add-vless.sh" && chmod +x add-vless
-wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/add-ws.sh" && chmod +x add-ws
+#wget -O add-vless "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/add-vless.sh" && chmod +x add-vless
+#wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/add-ws.sh" && chmod +x add-ws
 #wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/user-tr.sh" && chmod +x user-tr
-wget -O user-ws "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/user-ws.sh" && chmod +x user-ws
-wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/user-vless.sh" && chmod +x user-vless
+#wget -O user-ws "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/user-ws.sh" && chmod +x user-ws
+#wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/user-vless.sh" && chmod +x user-vless
 wget -O menu "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/SSH/menu.sh" && chmod +x menu
 wget -O ins-helium "https://raw.githubusercontent.com/vinstechmy/AdsBlock/main/ins-helium.sh" && chmod +x ins-helium
+wget -O bbr "https://raw.githubusercontent.com/vinstechmy/Vinstechmy-TCP-BBR/main/bbr.sh" && chmod +x bbr
+wget -O wssgen "https://raw.githubusercontent.com/vinstechmy/WSS-Converter-Universal/main/wssgen.sh" && chmod +x wssgen
 #wget -O nf "https://raw.githubusercontent.com/vinstechmy/MediaUnlockerTest/main/media.sh" && chmod +x nf
 #wget -O restore "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/BACKUP/restore.sh" && chmod +x restore
 #wget -O backup "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/BACKUP/backup.sh" && chmod +x backup

@@ -39,8 +39,8 @@ else
 	 echo ""
      echo -e "[ ${green}INFO${NC} ] XRAY Core CF-RAY Successfully Install !"
 	 echo ""
-	 echo -e "[ ${green}INFO${NC} ] Please Restart All VPN Services After Autoscript Patch Update Is Done . . ."
-	 sleep 1
+	 echo -e "[ ${green}INFO${NC} ] Please ${red}Restart${NC} All VPN Services After Autoscript Patch Update Is Done . . ."
+	 sleep 3
 	 clear
 	 echo -e "[ ${green}INFO${NC} ] Proceed Autoscript Patch Update . . ."
 	 echo ""

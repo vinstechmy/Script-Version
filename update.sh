@@ -17,6 +17,7 @@ if [[ -e /usr/local/bin/xray.bak ]]; then
 	 echo ""
 	 sleep 1
 	 cd /usr/bin
+	 rm bbr
 	 rm menu
 	 rm add-tr
      rm add-vless
@@ -29,6 +30,7 @@ if [[ -e /usr/local/bin/xray.bak ]]; then
 	 wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-ws.sh" && chmod +x add-ws
 	 wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-tr.sh" && chmod +x user-tr
 	 wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-vless.sh" && chmod +x user-vless
+	 wget -O bbr "https://raw.githubusercontent.com/vinstechmy/Vinstechmy-TCP-BBR/main/bbr.sh" && chmod +x bbr
 	 echo ""
 	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 	 sleep 1
@@ -48,6 +50,7 @@ else
 	 echo ""
 	 sleep 1
 	 cd /usr/bin
+	 rm bbr
 	 rm menu
 	 rm add-tr
      rm add-vless
@@ -60,6 +63,7 @@ else
 	 wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-ws.sh" && chmod +x add-ws
 	 wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-tr.sh" && chmod +x user-tr
 	 wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-vless.sh" && chmod +x user-vless
+	 wget -O bbr "https://raw.githubusercontent.com/vinstechmy/Vinstechmy-TCP-BBR/main/bbr.sh" && chmod +x bbr
 	 echo ""
 	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 	 sleep 1

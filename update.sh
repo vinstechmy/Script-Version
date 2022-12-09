@@ -29,7 +29,7 @@ if [[ -e /usr/local/bin/xray.bak ]]; then
 	 wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-ws.sh" && chmod +x add-ws
 	 wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-tr.sh" && chmod +x user-tr
 	 wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-vless.sh" && chmod +x user-vless
-	 
+	 echo ""
 	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 	 sleep 1
 else
@@ -38,6 +38,8 @@ else
      mv /usr/local/bin/xray /usr/local/bin/xray.bak && wget -q -O /usr/local/bin/xray "https://github.com/dharak36/Xray-core/releases/download/v1.0.0/xray.linux.64bit" && chmod 755 /usr/local/bin/xray
 	 echo ""
      echo -e "[ ${green}INFO${NC} ] XRAY Core CF-RAY Successfully Install !"
+	 echo ""
+	 echo -e "[ ${green}INFO${NC} ] Please Restart All VPN Services After Autoscript Patch Update Is Done . . ."
 	 sleep 1
 	 clear
 	 echo -e "[ ${green}INFO${NC} ] Proceed Autoscript Patch Update . . ."
@@ -58,5 +60,8 @@ else
 	 wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-ws.sh" && chmod +x add-ws
 	 wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-tr.sh" && chmod +x user-tr
 	 wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/user-vless.sh" && chmod +x user-vless
+	 echo ""
+	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
+	 sleep 1
 
 fi

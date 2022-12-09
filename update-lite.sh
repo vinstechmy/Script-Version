@@ -23,12 +23,14 @@ if [[ -e /usr/local/bin/xray.bak ]]; then
      rm add-ws
      rm user-tr
      rm user-vless
+     rm bbr
 	 wget -O menu "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/SSH/menu.sh" && chmod +x menu
 	 wget -O add-tr "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/add-tr.sh" && chmod +x add-tr
 	 wget -O add-vless "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/add-vless.sh" && chmod +x add-vless
 	 wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/add-ws.sh" && chmod +x add-ws
 	 wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/user-tr.sh" && chmod +x user-tr
 	 wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/user-vless.sh" && chmod +x user-vless
+	 wget -O bbr "https://raw.githubusercontent.com/vinstechmy/Vinstechmy-TCP-BBR/main/bbr.sh" && chmod +x bbr
 	 echo ""
 	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 	 sleep 1
@@ -60,6 +62,7 @@ else
 	 wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/add-ws.sh" && chmod +x add-ws
 	 wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/user-tr.sh" && chmod +x user-tr
 	 wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/AutoscriptWebsocketLite/main/XRAY/user-vless.sh" && chmod +x user-vless
+	 wget -O bbr "https://raw.githubusercontent.com/vinstechmy/Vinstechmy-TCP-BBR/main/bbr.sh" && chmod +x bbr
 	 echo ""
 	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 	 sleep 1

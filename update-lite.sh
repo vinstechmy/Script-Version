@@ -17,6 +17,7 @@ if [[ -e /usr/local/bin/xray.bak ]]; then
 	 echo ""
 	 sleep 1
 	 cd /usr/bin
+	 rm bbr
 	 rm menu
 	 rm add-tr
      rm add-vless

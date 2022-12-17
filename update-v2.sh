@@ -27,7 +27,6 @@ if [[ -e /usr/local/bin/xray.bak ]]; then
          #rm add-ws
          #rm user-tr
          #rm user-vless
-	 rm bbr
 	 wget -O nf "https://raw.githubusercontent.com/vinstechmy/MediaUnlockerTest/main/media.sh" && chmod +x nf
 	 wget -O ins-helium "https://raw.githubusercontent.com/vinstechmy/AdsBlock/main/ins-helium.sh" && chmod +x ins-helium
 	 wget -O menu "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium-V2/main/SSH/menu.sh" && chmod +x menu

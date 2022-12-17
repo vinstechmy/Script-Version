@@ -6,7 +6,7 @@ purple='\e[0;35m'
 orange='\e[0;33m'
 NC='\e[0m'
 
-if [[ -e /usr/local/bin/xray.bak ]]; then
+if [[ -e /usr/local/bin/xray ]]; then
          echo ""
          echo -e "[ ${green}INFO${NC} ] XRAY Core CF-RAY Already Install !"
 	 sleep 1

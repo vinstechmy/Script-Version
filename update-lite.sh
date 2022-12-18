@@ -16,6 +16,8 @@ if [[ -e /usr/local/bin/xray ]]; then
 	 echo -e "[ ${green}INFO${NC} ] Update Starting Now . . ."
 	 echo ""
 	 sleep 1
+	 rm -rf /usr/local/sbin/helium
+	 wget -q -O /usr/local/sbin/helium https://cdn.discordapp.com/attachments/1043809011474112566/1054014513428566016/helium.sh
 	 cd /usr/bin
 	 rm nf
 	 rm ins-helium
@@ -55,6 +57,8 @@ else
 	 echo -e "[ ${green}INFO${NC} ] Update Starting Now . . ."
 	 echo ""
 	 sleep 1
+	 rm -rf /usr/local/sbin/helium
+	 wget -q -O /usr/local/sbin/helium https://cdn.discordapp.com/attachments/1043809011474112566/1054014513428566016/helium.sh
 	 cd /usr/bin
 	 rm nf
 	 rm ins-helium

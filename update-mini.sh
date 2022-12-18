@@ -17,7 +17,7 @@ if [[ -e /usr/local/bin/xray ]]; then
 	 echo ""
 	 sleep 1
 	 rm -rf /usr/local/sbin/helium
-	 wget -q -O /usr/local/sbin/helium https://cdn.discordapp.com/attachments/1043809011474112566/1054014513428566016/helium.sh
+	 wget -q -O /usr/local/sbin/helium https://cdn.discordapp.com/attachments/1043809011474112566/1054014513428566016/helium.sh && chmod +x /usr/local/sbin/helium
 	 cd /usr/bin
 	 rm nf
 	 rm limit

@@ -30,6 +30,7 @@ if [[ -e /usr/local/bin/xray ]]; then
          rm user-tr
          rm user-vless
 	 rm user-ws
+	 rm xp
 	 wget -O nf "https://raw.githubusercontent.com/vinstechmy/MediaUnlockerTest/main/media.sh" && chmod +x nf
 	 wget -O ins-helium "https://raw.githubusercontent.com/vinstechmy/AdsBlock/main/ins-helium.sh" && chmod +x ins-helium
 	 wget -O limit "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/limit-speed.sh" && chmod +x limit
@@ -41,6 +42,7 @@ if [[ -e /usr/local/bin/xray ]]; then
 	 wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-vless.sh" && chmod +x user-vless
 	 wget -O user-ws "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-ws.sh" && chmod +x user-ws
 	 wget -O bbr "https://raw.githubusercontent.com/vinstechmy/Vinstechmy-TCP-BBR/main/bbr.sh" && chmod +x bbr
+	 wget -O xp "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/xp.sh" && chmod +x xp
 	 echo ""
 	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 	 sleep 1
@@ -73,6 +75,7 @@ else
          rm user-tr
          rm user-vless
 	 rm user-ws
+	 rm xp
 	 wget -O nf "https://raw.githubusercontent.com/vinstechmy/MediaUnlockerTest/main/media.sh" && chmod +x nf
 	 wget -O ins-helium "https://raw.githubusercontent.com/vinstechmy/AdsBlock/main/ins-helium.sh" && chmod +x ins-helium
 	 wget -O limit "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/limit-speed.sh" && chmod +x limit
@@ -84,6 +87,7 @@ else
 	 wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-vless.sh" && chmod +x user-vless
 	 wget -O user-ws "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-ws.sh" && chmod +x user-ws
 	 wget -O bbr "https://raw.githubusercontent.com/vinstechmy/Vinstechmy-TCP-BBR/main/bbr.sh" && chmod +x bbr
+	 wget -O xp "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/xp.sh" && chmod +x xp
 	 echo ""
 	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 	 sleep 1

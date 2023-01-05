@@ -12,37 +12,41 @@ if [[ -e /usr/local/bin/xray ]]; then
 	 sleep 1
 	 clear
 	 echo -e "[ ${green}INFO${NC} ] Skip Update XRAY Core & Proceed Autoscript Patch Update . . ."
-	 echo ""
+	 echo -e "[ ${green}INFO${NC} ] New Update : Generate Trial For All VPN Services"
 	 echo -e "[ ${green}INFO${NC} ] Update Starting Now . . ."
 	 echo ""
 	 sleep 1
-	 #rm -rf /usr/local/sbin/helium
-	 #wget -q -O /usr/local/sbin/helium https://cdn.discordapp.com/attachments/1043809011474112566/1054014513428566016/helium.sh && chmod +x /usr/local/sbin/helium
 	 cd /usr/bin
-	 rm nf
-	 rm limit
-	 rm bbr
-	 rm menu
-	 rm ins-helium
 	 rm add-tr
          rm add-vless
          rm add-ws
-         rm user-tr
-         rm user-vless
-	 rm user-ws
-	 rm xp
-	 wget -O nf "https://raw.githubusercontent.com/vinstechmy/MediaUnlockerTest/main/media.sh" && chmod +x nf
-	 wget -O ins-helium "https://raw.githubusercontent.com/vinstechmy/AdsBlock/main/ins-helium.sh" && chmod +x ins-helium
-	 wget -O limit "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/limit-speed.sh" && chmod +x limit
-	 wget -O menu "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu.sh" && chmod +x menu
-	 wget -O add-tr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-tr.sh" && chmod +x add-tr
-	 wget -O add-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-vless.sh" && chmod +x add-vless
+	 rm add-xray
+	 rm add-xtr
+	 rm add-trgo
+	 rm menu-ws
+	 rm menu-tr
+	 rm menu-vless
+	 rm menu-xray
+	 rm menu-xtr
+	 rm menu-trgo
+	 wget -O menu-ws "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-ws.sh" && chmod +x menu-ws
+	 wget -O menu-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-vless.sh" && chmod +x menu-vless
+	 wget -O menu-tr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-tr.sh" && chmod +x menu-tr
+	 wget -O menu-xray "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-xray.sh" && chmod +x menu-xray
+	 wget -O menu-xtr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-xtr.sh" && chmod +x menu-xtr
+	 wget -O menu-trgo "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-trgo.sh" && chmod +x menu-trgo
+	 wget -O trial-ws "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/trial-ws.sh" && chmod +x trial-ws
+	 wget -O trial-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/trial-vless.sh" && chmod +x trial-vless
+	 wget -O trial-tr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/trial-tr.sh" && chmod +x trial-tr
+	 wget -O trial-xray "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/trial-xray.sh" && chmod +x trial-xray
+	 wget -O trial-xtr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/trial-xtr.sh" && chmod +x trial-xtr
+	 wget -O trial-trgo "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/TRGO/trial-trgo.sh" && chmod +x trial-trgo
 	 wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-ws.sh" && chmod +x add-ws
-	 wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-tr.sh" && chmod +x user-tr
-	 wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-vless.sh" && chmod +x user-vless
-	 wget -O user-ws "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-ws.sh" && chmod +x user-ws
-	 wget -O bbr "https://raw.githubusercontent.com/vinstechmy/Vinstechmy-TCP-BBR/main/bbr.sh" && chmod +x bbr
-	 wget -O xp "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/xp.sh" && chmod +x xp
+	 wget -O add-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-vless.sh" && chmod +x add-vless
+	 wget -O add-tr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-tr.sh" && chmod +x add-tr
+	 wget -O add-xray "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-xray.sh" && chmod +x add-xray
+	 wget -O add-xtr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-xtr.sh" && chmod +x add-xtr
+	 wget -O add-trgo "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/TRGO/add-trgo.sh" && chmod +x add-trgo
 	 echo ""
 	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 	 sleep 1
@@ -61,33 +65,37 @@ else
 	 echo -e "[ ${green}INFO${NC} ] Update Starting Now . . ."
 	 echo ""
 	 sleep 1
-	 #rm -rf /usr/local/sbin/helium
-	 #wget -q -O /usr/local/sbin/helium https://cdn.discordapp.com/attachments/1043809011474112566/1054014513428566016/helium.sh
 	 cd /usr/bin
-	 rm nf
-	 rm limit
-	 rm bbr
-	 rm menu
-	 rm ins-helium
 	 rm add-tr
          rm add-vless
          rm add-ws
-         rm user-tr
-         rm user-vless
-	 rm user-ws
-	 rm xp
-	 wget -O nf "https://raw.githubusercontent.com/vinstechmy/MediaUnlockerTest/main/media.sh" && chmod +x nf
-	 wget -O ins-helium "https://raw.githubusercontent.com/vinstechmy/AdsBlock/main/ins-helium.sh" && chmod +x ins-helium
-	 wget -O limit "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/limit-speed.sh" && chmod +x limit
-	 wget -O menu "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu.sh" && chmod +x menu
-	 wget -O add-tr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-tr.sh" && chmod +x add-tr
-	 wget -O add-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-vless.sh" && chmod +x add-vless
+	 rm add-xray
+	 rm add-xtr
+	 rm add-trgo
+	 rm menu-ws
+	 rm menu-tr
+	 rm menu-vless
+	 rm menu-xray
+	 rm menu-xtr
+	 rm menu-trgo
+	 wget -O menu-ws "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-ws.sh" && chmod +x menu-ws
+	 wget -O menu-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-vless.sh" && chmod +x menu-vless
+	 wget -O menu-tr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-tr.sh" && chmod +x menu-tr
+	 wget -O menu-xray "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-xray.sh" && chmod +x menu-xray
+	 wget -O menu-xtr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-xtr.sh" && chmod +x menu-xtr
+	 wget -O menu-trgo "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-trgo.sh" && chmod +x menu-trgo
+	 wget -O trial-ws "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/trial-ws.sh" && chmod +x trial-ws
+	 wget -O trial-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/trial-vless.sh" && chmod +x trial-vless
+	 wget -O trial-tr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/trial-tr.sh" && chmod +x trial-tr
+	 wget -O trial-xray "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/trial-xray.sh" && chmod +x trial-xray
+	 wget -O trial-xtr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/trial-xtr.sh" && chmod +x trial-xtr
+	 wget -O trial-trgo "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/TRGO/trial-trgo.sh" && chmod +x trial-trgo
 	 wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-ws.sh" && chmod +x add-ws
-	 wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-tr.sh" && chmod +x user-tr
-	 wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-vless.sh" && chmod +x user-vless
-	 wget -O user-ws "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-ws.sh" && chmod +x user-ws
-	 wget -O bbr "https://raw.githubusercontent.com/vinstechmy/Vinstechmy-TCP-BBR/main/bbr.sh" && chmod +x bbr
-	 wget -O xp "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/xp.sh" && chmod +x xp
+	 wget -O add-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-vless.sh" && chmod +x add-vless
+	 wget -O add-tr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-tr.sh" && chmod +x add-tr
+	 wget -O add-xray "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-xray.sh" && chmod +x add-xray
+	 wget -O add-xtr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-xtr.sh" && chmod +x add-xtr
+	 wget -O add-trgo "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/TRGO/add-trgo.sh" && chmod +x add-trgo
 	 echo ""
 	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 	 sleep 1

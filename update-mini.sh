@@ -29,6 +29,11 @@ if [[ -e /usr/local/bin/xray ]]; then
 	 rm menu-xray
 	 rm menu-xtr
 	 rm menu-trgo
+	 rm user-ws
+	 rm user-vless
+	 rm user-tr
+	 rm user-xray
+	 rm user-xtr
 	 wget -O menu-ws "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-ws.sh" && chmod +x menu-ws
 	 wget -O menu-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-vless.sh" && chmod +x menu-vless
 	 wget -O menu-tr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-tr.sh" && chmod +x menu-tr
@@ -47,6 +52,11 @@ if [[ -e /usr/local/bin/xray ]]; then
 	 wget -O add-xray "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-xray.sh" && chmod +x add-xray
 	 wget -O add-xtr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-xtr.sh" && chmod +x add-xtr
 	 wget -O add-trgo "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/TRGO/add-trgo.sh" && chmod +x add-trgo
+	 wget -O user-ws "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-ws.sh" && chmod +x user-ws
+	 wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-vless.sh" && chmod +x user-vless
+	 wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-tr.sh" && chmod +x user-tr
+	 wget -O user-xray "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-xray.sh" && chmod +x user-xray
+	 wget -O user-xtr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-xtr.sh" && chmod +x user-xtr
 	 echo ""
 	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 	 sleep 1
@@ -78,6 +88,11 @@ else
 	 rm menu-xray
 	 rm menu-xtr
 	 rm menu-trgo
+	 rm user-ws
+	 rm user-vless
+	 rm user-tr
+	 rm user-xray
+	 rm user-xtr
 	 wget -O menu-ws "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-ws.sh" && chmod +x menu-ws
 	 wget -O menu-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-vless.sh" && chmod +x menu-vless
 	 wget -O menu-tr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/SSH/menu-tr.sh" && chmod +x menu-tr
@@ -96,6 +111,11 @@ else
 	 wget -O add-xray "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-xray.sh" && chmod +x add-xray
 	 wget -O add-xtr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/add-xtr.sh" && chmod +x add-xtr
 	 wget -O add-trgo "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/TRGO/add-trgo.sh" && chmod +x add-trgo
+	 wget -O user-ws "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-ws.sh" && chmod +x user-ws
+	 wget -O user-vless "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-vless.sh" && chmod +x user-vless
+	 wget -O user-tr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-tr.sh" && chmod +x user-tr
+	 wget -O user-xray "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-xray.sh" && chmod +x user-xray
+	 wget -O user-xtr "https://raw.githubusercontent.com/vinstechmy/MiniMultiportWebsocket/main/XRAY/user-xtr.sh" && chmod +x user-xtr
 	 echo ""
 	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 	 sleep 1

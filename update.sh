@@ -26,8 +26,8 @@ if [[ -e /usr/local/bin/xray ]]; then
          #rm add-tr
 	 #rm add-xray
 	 #rm add-xtr
-	 wget -O backup "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/backup.sh" && chmod +x backup
-	 wget -O restore "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/restore.sh" && chmod +x restore
+	 wget -O backup "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/BACKUP/backup.sh" && chmod +x backup
+	 wget -O restore "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/BACKUP/restore.sh" && chmod +x restore
 	 #wget -O limit "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/limit-speed.sh" && chmod +x limit
 	 #wget -O menu "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/menu.sh" && chmod +x menu
 	 #wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-ws.sh" && chmod +x add-ws
@@ -63,8 +63,8 @@ else
          #rm add-tr
 	 #rm add-xray
 	 #rm add-xtr
-	 wget -O backup "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/backup.sh" && chmod +x backup
-	 wget -O restore "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/restore.sh" && chmod +x restore
+	 wget -O backup "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/BACKUP/backup.sh" && chmod +x backup
+	 wget -O restore "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/BACKUP/restore.sh" && chmod +x restore
 	 #wget -O limit "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/limit-speed.sh" && chmod +x limit
 	 #wget -O menu "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/menu.sh" && chmod +x menu
 	 #wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-ws.sh" && chmod +x add-ws

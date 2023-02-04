@@ -17,19 +17,19 @@ if [[ -e /usr/local/bin/xray ]]; then
 	 echo ""
 	 sleep 1
 	 cd /usr/bin
-	 rm backup
+	 #rm backup
 	 rm restore
 	 #rm limit
-	 #rm menu
+	 rm menu
 	 #rm add-ws
          #rm add-vless
          #rm add-tr
 	 #rm add-xray
 	 #rm add-xtr
-	 wget -O backup "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/BACKUP/backup.sh" && chmod +x backup
+	 #wget -O backup "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/BACKUP/backup.sh" && chmod +x backup
 	 wget -O restore "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/BACKUP/restore.sh" && chmod +x restore
 	 #wget -O limit "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/limit-speed.sh" && chmod +x limit
-	 #wget -O menu "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/menu.sh" && chmod +x menu
+	 wget -O menu "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/menu.sh" && chmod +x menu
 	 #wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-ws.sh" && chmod +x add-ws
 	 #wget -O add-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-tr.sh" && chmod +x add-tr
 	 #wget -O add-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-vless.sh" && chmod +x add-vless
@@ -54,19 +54,19 @@ else
 	 echo ""
 	 sleep 1
 	 cd /usr/bin
-	 rm backup
+	 #rm backup
 	 rm restore
 	 #rm limit
-	 #rm menu
+	 rm menu
 	 #rm add-ws
          #rm add-vless
          #rm add-tr
 	 #rm add-xray
 	 #rm add-xtr
-	 wget -O backup "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/BACKUP/backup.sh" && chmod +x backup
+	 #wget -O backup "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/BACKUP/backup.sh" && chmod +x backup
 	 wget -O restore "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/BACKUP/restore.sh" && chmod +x restore
 	 #wget -O limit "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/limit-speed.sh" && chmod +x limit
-	 #wget -O menu "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/menu.sh" && chmod +x menu
+	 wget -O menu "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/SSH/menu.sh" && chmod +x menu
 	 #wget -O add-ws "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-ws.sh" && chmod +x add-ws
 	 #wget -O add-tr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-tr.sh" && chmod +x add-tr
 	 #wget -O add-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-vless.sh" && chmod +x add-vless

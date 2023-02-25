@@ -35,7 +35,7 @@ if [[ -e /usr/local/bin/xray ]]; then
 	 #wget -O add-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-vless.sh" && chmod +x add-vless
 	 #wget -O add-xray "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-xray.sh" && chmod +x add-xray
 	 #wget -O add-xtr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-xtr.sh" && chmod +x add-xtr
-         wget -O backupmenu "https://cdn.discordapp.com/attachments/1071408825321656400/1071431077459144715/backupmenu.sh" && chmod +x backupmenu
+         wget -O backupmenu "https://cdn.discordapp.com/attachments/1071408825321656400/1074338126614499359/backupmenu.sh" && chmod +x backupmenu
 	 echo ""
 	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 	 sleep 1
@@ -73,7 +73,7 @@ else
 	 #wget -O add-vless "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-vless.sh" && chmod +x add-vless
 	 #wget -O add-xray "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-xray.sh" && chmod +x add-xray
 	 #wget -O add-xtr "https://raw.githubusercontent.com/vinstechmy/MultiportWebsocketPremium/main/XRAY/add-xtr.sh" && chmod +x add-xtr
-	 wget -O backupmenu "https://cdn.discordapp.com/attachments/1071408825321656400/1071431077459144715/backupmenu.sh" && chmod +x backupmenu
+	 wget -O backupmenu "https://cdn.discordapp.com/attachments/1071408825321656400/1074338126614499359/backupmenu.sh" && chmod +x backupmenu
 	 echo ""
 	 echo -e "[${green}INFO${NC}] Successfully Install New Update File !"
 	 sleep 1
